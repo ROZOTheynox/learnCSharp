@@ -11,8 +11,18 @@ namespace learnCSharp
        
         static void Main(string[] args)
         {
-            string bite = "Ligne 1 \aLigne 2 \tLigne 3";
-            Console.WriteLine();
+            string username = "ROZO";
+            string password = "Jemangelecode1";
+
+            if(password == "Jemangelecode1" && username == "ROZO")
+            {
+                Console.WriteLine("Identifiants corrects");
+            }
+            else if
+            {
+                Console.WriteLine("Identifiants non corrects");
+            }
+
         }
     }
 }
