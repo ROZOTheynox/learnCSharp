@@ -1,0 +1,7 @@
+C:\Users\bdscr\source\repos\learnCSharp\learnCSharp\bin\Debug\learnCSharp.exe.config
+C:\Users\bdscr\source\repos\learnCSharp\learnCSharp\bin\Debug\learnCSharp.exe
+C:\Users\bdscr\source\repos\learnCSharp\learnCSharp\bin\Debug\learnCSharp.pdb
+C:\Users\bdscr\source\repos\learnCSharp\learnCSharp\obj\Debug\learnCSharp.csproj.AssemblyReference.cache
+C:\Users\bdscr\source\repos\learnCSharp\learnCSharp\obj\Debug\learnCSharp.csproj.CoreCompileInputs.cache
+C:\Users\bdscr\source\repos\learnCSharp\learnCSharp\obj\Debug\learnCSharp.exe
+C:\Users\bdscr\source\repos\learnCSharp\learnCSharp\obj\Debug\learnCSharp.pdb
