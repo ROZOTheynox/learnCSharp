@@ -5,3 +5,7 @@ C:\Users\bdscr\source\repos\learnCSharp\learnCSharp\obj\Debug\learnCSharp.csproj
 C:\Users\bdscr\source\repos\learnCSharp\learnCSharp\obj\Debug\learnCSharp.csproj.CoreCompileInputs.cache
 C:\Users\bdscr\source\repos\learnCSharp\learnCSharp\obj\Debug\learnCSharp.exe
 C:\Users\bdscr\source\repos\learnCSharp\learnCSharp\obj\Debug\learnCSharp.pdb
+D:\Développement\learnC\learnCSharp\learnCSharp\obj\Debug\learnCSharp.csproj.AssemblyReference.cache
+D:\Développement\learnC\learnCSharp\learnCSharp\obj\Debug\learnCSharp.csproj.CoreCompileInputs.cache
+D:\Développement\learnC\learnCSharp\learnCSharp\obj\Debug\learnCSharp.exe
+D:\Développement\learnC\learnCSharp\learnCSharp\obj\Debug\learnCSharp.pdb

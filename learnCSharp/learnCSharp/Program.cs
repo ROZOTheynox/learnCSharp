@@ -18,7 +18,7 @@ namespace learnCSharp
             {
                 Console.WriteLine("Identifiants corrects");
             }
-            else if
+            else
             {
                 Console.WriteLine("Identifiants non corrects");
             }
@@ -26,3 +26,4 @@ namespace learnCSharp
         }
     }
 }
+ 
