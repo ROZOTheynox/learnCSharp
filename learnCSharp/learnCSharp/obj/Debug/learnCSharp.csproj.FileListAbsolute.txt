@@ -9,3 +9,10 @@ D:\Développement\learnC\learnCSharp\learnCSharp\obj\Debug\learnCSharp.csproj.As
 D:\Développement\learnC\learnCSharp\learnCSharp\obj\Debug\learnCSharp.csproj.CoreCompileInputs.cache
 D:\Développement\learnC\learnCSharp\learnCSharp\obj\Debug\learnCSharp.exe
 D:\Développement\learnC\learnCSharp\learnCSharp\obj\Debug\learnCSharp.pdb
+D:\Développement\learnCSharp\learnCSharp\learnCSharp\bin\Debug\learnCSharp.exe.config
+D:\Développement\learnCSharp\learnCSharp\learnCSharp\bin\Debug\learnCSharp.exe
+D:\Développement\learnCSharp\learnCSharp\learnCSharp\bin\Debug\learnCSharp.pdb
+D:\Développement\learnCSharp\learnCSharp\learnCSharp\obj\Debug\learnCSharp.csproj.AssemblyReference.cache
+D:\Développement\learnCSharp\learnCSharp\learnCSharp\obj\Debug\learnCSharp.csproj.CoreCompileInputs.cache
+D:\Développement\learnCSharp\learnCSharp\learnCSharp\obj\Debug\learnCSharp.exe
+D:\Développement\learnCSharp\learnCSharp\learnCSharp\obj\Debug\learnCSharp.pdb
