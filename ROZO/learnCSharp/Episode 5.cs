@@ -65,6 +65,37 @@ namespace learnCSharp
 
             #endregion
 
+            #region Episode 5
+            List<string> weekList = new List<string> {"Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"};
+
+            for (int i = 1; i <= 5; i += 1)
+            {
+                Console.WriteLine("Message" + i);
+            }
+
+
+            for (int i = 0; i < weekList.Count; i++)
+            {
+                Console.WriteLine("Le " + weekList[i] + " est le jour numéro " + i);
+            }
+
+
+            Console.WriteLine("Appuyez sur la touche A pour continuer");
+            while (Console.ReadKey(true).Key != ConsoleKey.A)
+            {
+                Console.WriteLine("Appuyez sur la touche A pour continuer");
+            }
+
+            Console.WriteLine("Vous avez appuyer sur la touche A");
+            Console.ReadKey(true);
+
+
+            foreach (string aDay in weekList)
+            {
+                Console.WriteLine(aDay + " Le nombre de caractères dans ce jour est " + aDay.Length);
+            }
+            #endregion
+
 
         }
     }
