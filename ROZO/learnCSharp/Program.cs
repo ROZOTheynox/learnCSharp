@@ -141,7 +141,18 @@ namespace learnCSharp
             #endregion
 
             #region Episode 9
+            Title("Episode 9, L'heritage");
+            Chien chien = new Chien("Yuki");
+            Chat chat = new Chat("La Chatte à Mia Khalifa");
+            chien.Aboyer();
+            chat.Miauler();
+            chien.SetFaim(true);
+            chat.SetFaim(true);
+            chien.Manger();
+            chat.Manger();
+            #endregion
 
+            #region Episode 10
 
             #endregion
 
