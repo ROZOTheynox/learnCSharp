@@ -126,6 +126,7 @@ namespace learnCSharp
 
             #region Episode 7
             Title("Episode 7, Les classes");
+            //Voir classe Personne.cs
             Personne unePersonne;
             unePersonne = new Personne("Sudraud", "Alexis", "Masculin", 11) ;
             Console.WriteLine(unePersonne.infosPersonne());
@@ -135,6 +136,7 @@ namespace learnCSharp
 
             #region Episode 8
             Title("Episode 9, Les trucs statiques");
+            //Voir classe Outils.cs
             Outils outils = new Outils();
             outils.myMethod();
             Outils.staticMethod();
@@ -142,6 +144,7 @@ namespace learnCSharp
 
             #region Episode 9
             Title("Episode 9, L'heritage");
+            //Voir classes : Animal.cs, Chien.cs, Chat.cs
             Chien chien = new Chien("Yuki");
             Chat chat = new Chat("La Chatte à Mia Khalifa");
             chien.Aboyer();
@@ -153,9 +156,41 @@ namespace learnCSharp
             #endregion
 
             #region Episode 10
+            Title("Episode 10, La visibilité et la portée des variables");
+            //Pendant cet épisode il a juste expliquer des trucs
+            #endregion
+
+            #region Episode 11
+            Title("Episode 11, Les exceptions");
+            try
+            {
+                Console.WriteLine("Entrez un nombre : ");
+                int readNumber = int.Parse(Console.ReadLine());
+                Console.WriteLine("100 / {0} = {1} ", readNumber, 100 / readNumber);
+            }
+            catch(DivideByZeroException)
+            {
+                Console.WriteLine("Divsion par zéro impossible");
+            }
+            catch(FormatException)
+            {
+                Console.WriteLine("Veuillez entrer un entier");
+            }
+
+            catch (OverflowException)
+            {
+                Console.WriteLine("Valeure trop grande ou trop petite");
+            }
+            finally
+            {
+                Console.WriteLine("Vous avez terminé l'épisode");
+            }
+
 
             #endregion
 
+
+            //Methode Title () pour se reperer dans la console
             void Title(string text)
             {
                 Console.WriteLine("-----------------------------------" + text + "-----------------------------------");

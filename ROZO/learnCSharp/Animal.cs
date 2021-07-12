@@ -20,8 +20,8 @@ namespace learnCSharp
 
         public virtual void Manger()
         {
-            Console.WriteLine(GetType().Name);
-            Console.WriteLine(nom + " mange ");
+            Console.Write(GetType().Name);
+            Console.Write(nom + " mange ");
         }
 
         public string GetName()

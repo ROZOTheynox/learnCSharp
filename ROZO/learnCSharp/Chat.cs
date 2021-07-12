@@ -23,8 +23,8 @@ namespace learnCSharp
             if (aFaim)
             {
                 base.Manger();
-                Console.Write("du poisson");
-                Console.Write(GetName() + " se régale");
+                Console.Write(" du poisson.");
+                Console.Write(GetName() + " se régale.");
             }
 
             else
