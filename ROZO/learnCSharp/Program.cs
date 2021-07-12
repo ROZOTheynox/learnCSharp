@@ -12,6 +12,7 @@ namespace learnCSharp
         static void Main(string[] args)
         {
             #region Episode 3
+            Title("Episode 3, Methodes");
             void direBonjour(string prenom)
             {
                 Console.WriteLine("\t---------------");
@@ -38,6 +39,7 @@ namespace learnCSharp
             #endregion
 
             #region Episode 4
+            Title("Episode 4, Le tablal et les listes");
             int[] chiffres = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             Console.WriteLine(chiffres[2]);
             Console.WriteLine(chiffres[chiffres.Count() -1]);
@@ -66,6 +68,7 @@ namespace learnCSharp
             #endregion
 
             #region Episode 5
+            Title("Episode 5, Les boucles");
             List<string> weekList = new List<string> {"Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"};
 
             for (int i = 1; i <= 5; i += 1)
@@ -97,6 +100,7 @@ namespace learnCSharp
             #endregion
 
             #region Episode 6
+            Title("Episode 6, Les dictionnaires");
             Dictionary<int, string> unDeuxTrois = new Dictionary<int, string>
             {
                 {1, "Un" },
@@ -121,6 +125,7 @@ namespace learnCSharp
             #endregion
 
             #region Episode 7
+            Title("Episode 7, Les classes");
             Personne unePersonne;
             unePersonne = new Personne("Sudraud", "Alexis", "Masculin", 11) ;
             Console.WriteLine(unePersonne.infosPersonne());
@@ -128,6 +133,23 @@ namespace learnCSharp
             Console.WriteLine(unePersonne.age);
             #endregion
 
+            #region Episode 8
+            Title("Episode 9, Les trucs statiques");
+            Outils outils = new Outils();
+            outils.myMethod();
+            Outils.staticMethod();
+            #endregion
+
+            #region Episode 9
+
+
+            #endregion
+
+            void Title(string text)
+            {
+                Console.WriteLine("-----------------------------------" + text + "-----------------------------------");
+            
+            }
         }
     }
 }
