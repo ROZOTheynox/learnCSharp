@@ -96,6 +96,29 @@ namespace learnCSharp
             }
             #endregion
 
+            #region Episode 6
+            Dictionary<int, string> unDeuxTrois = new Dictionary<int, string>
+            {
+                {1, "Un" },
+                {2, "Deux" },
+                {3, "Trois" }
+            };
+            Console.WriteLine(unDeuxTrois[1]);
+
+            foreach(KeyValuePair<int, string> pair in unDeuxTrois)
+            {
+                Console.WriteLine(pair.Value);
+            }
+
+            Dictionary<string, string> firstName = new Dictionary<string, string>
+            {
+                { "ROZO", "Alexis"},
+                {"Theynox", "Théandre" },
+                {"RoiU", "Ulysse" }
+            };
+
+            Console.WriteLine(firstName["Theynox"]);
+            #endregion
 
         }
     }
