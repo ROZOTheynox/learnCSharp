@@ -1,0 +1,9 @@
+D:\Developpement 2\VS dev\Premier test de Csharp\bin\Debug\Premier test de Csharp.exe.config
+D:\Developpement 2\VS dev\Premier test de Csharp\bin\Debug\Premier test de Csharp.exe
+D:\Developpement 2\VS dev\Premier test de Csharp\bin\Debug\Premier test de Csharp.pdb
+D:\Developpement 2\VS dev\Premier test de Csharp\obj\Debug\Theynox.csproj.AssemblyReference.cache
+D:\Developpement 2\VS dev\Premier test de Csharp\obj\Debug\Premier_test_de_Csharp.Form1.resources
+D:\Developpement 2\VS dev\Premier test de Csharp\obj\Debug\Theynox.csproj.GenerateResource.cache
+D:\Developpement 2\VS dev\Premier test de Csharp\obj\Debug\Theynox.csproj.CoreCompileInputs.cache
+D:\Developpement 2\VS dev\Premier test de Csharp\obj\Debug\Premier test de Csharp.exe
+D:\Developpement 2\VS dev\Premier test de Csharp\obj\Debug\Premier test de Csharp.pdb

@@ -340,9 +340,11 @@ namespace Premier_test_de_Csharp
             #endregion
 
             #region Episode 9
+            ls();
             Title("Episode 9");
+            ls();
 
-
+            //je fais pas car il as pas expliquer grand chose
 
 
 
@@ -355,6 +357,95 @@ namespace Premier_test_de_Csharp
 
             #endregion
 
+            #region Epsiode 10
+            ls();
+            Title("Episode 10");
+            ls();
+            //je vais creer une nouvelle classe pour importer 
+            //(c'est pour moins de bordel)
+            //enfaite si tu veux va voir Form1.cs :)
+
+            #endregion
+
+            #region Episode 11
+            ls();
+            Title("Episode 11");
+            ls();
+
+            try
+            {
+                Console.Write("Entrez un nombre : ");
+                int nombre = int.Parse(Console.ReadLine());
+                Console.WriteLine("100 / {0} = {1}", nombre, 100 / nombre );
+            }
+            catch (DivideByZeroException)
+            {
+                Console.Write("Erreur : Division par 0 impssible ...");
+            }
+
+            catch(OverflowException)
+            {
+                Console.WriteLine("Erreur : Le nombre est trop grand ou trop petit ...");
+            }
+            
+            catch(FormatException)
+            {
+                Console.WriteLine("Erreur : T'on caracthère n'est pas = a un nombre");
+            }
+            finally
+            {
+
+                Console.WriteLine("-------------------------------TERMINÉ-------------------------------");
+            }
+
+
+
+
+
+
+
+
+            #endregion
+
+            #region Episode 12
+            ls();
+            Title("Episode 12");
+            ls();
+
+            int a = 2147483647;
+            long b = 9223372036854775807;
+
+            b = a;
+            Console.WriteLine(b);
+            
+            double c = 2.4;
+            Console.WriteLine(c);
+
+            int unNombre = Convert.ToInt32("55");
+            Console.WriteLine(unNombre);
+
+            if (int.TryParse("123", out unNombre))
+            {
+                Console.WriteLine("La conversion a été effectué : " + unNombre);
+            }
+            else
+            {
+                Console.WriteLine("Conversion impossible !");
+            }
+
+
+
+
+            #endregion
+
+            #region Epîsode 13
+            ls();
+            Title("Episode 13");
+            ls();
+
+            //cette fois je fais une nouvelle classe
+
+            Episode13.Ep13();
 
 
 
@@ -364,7 +455,7 @@ namespace Premier_test_de_Csharp
 
 
 
-
+            #endregion
 
 
 
