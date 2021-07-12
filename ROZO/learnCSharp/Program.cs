@@ -120,6 +120,14 @@ namespace learnCSharp
             Console.WriteLine(firstName["Theynox"]);
             #endregion
 
+            #region Episode 7
+            Personne unePersonne;
+            unePersonne = new Personne("Sudraud", "Alexis", "Masculin", 11) ;
+            Console.WriteLine(unePersonne.infosPersonne());
+            unePersonne.age ++;
+            Console.WriteLine(unePersonne.age);
+            #endregion
+
         }
     }
 }
