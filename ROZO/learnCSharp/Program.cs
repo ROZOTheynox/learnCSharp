@@ -189,6 +189,30 @@ namespace learnCSharp
 
             #endregion
 
+            #region Episode 12
+            Title("Episode 12, Conversion de type de données");
+
+            int a = 2147483647;
+            long b = 93212312365453587;
+            b =a;
+
+
+            double c = 2.4;
+            Console.WriteLine(c);
+            Console.WriteLine((int)c);
+
+            int trenteDouze = Convert.ToInt32("3012");
+
+            if (int.TryParse("trente-douze", out trenteDouze))
+            {
+                Console.WriteLine("Le nombre " + trenteDouze + "à été converti");
+            }
+            else
+            {
+                Console.WriteLine("Conversion impossible");
+            }
+            #endregion
+
 
             //Methode Title () pour se reperer dans la console
             void Title(string text)
