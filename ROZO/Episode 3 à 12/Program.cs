@@ -12,8 +12,6 @@ namespace learnCSharp
         static void Main(string[] args)
         {
             #region Episode 3
-            Title("Episode 3, Methodes");
-
             //Une procédure qui demande un prenom et qui l'écrit
             void direBonjour(string prenom)
             {
@@ -47,7 +45,6 @@ namespace learnCSharp
             #endregion
 
             #region Episode 4
-            Title("Episode 4, Le tablal et les listes");
 
             //Un tableau de format int qui contient les chiffres
             int[] chiffres = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
@@ -83,7 +80,6 @@ namespace learnCSharp
             #endregion
 
             #region Episode 5
-            Title("Episode 5, Les boucles");
             //Une liste avec les jours de la semaine
             List<string> weekList = new List<string> {"Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"};
 
@@ -122,7 +118,6 @@ namespace learnCSharp
             #endregion
 
             #region Episode 6
-            Title("Episode 6, Les dictionnaires");
             //Une déclaration de dictionnaire avec un entier et une chaine de caractères
             Dictionary<int, string> unDeuxTrois = new Dictionary<int, string>
             {
@@ -155,7 +150,6 @@ namespace learnCSharp
             #endregion
 
             #region Episode 7
-            Title("Episode 7, Les classes");
             //Voir classe Personne.cs
             //Importation de la classe Personne et transformation en variable
             Personne unePersonne;
@@ -170,7 +164,6 @@ namespace learnCSharp
             #endregion
 
             #region Episode 8
-            Title("Episode 9, Les trucs statiques");
             //Voir classe Outils.cs
             //Création d'une variable qui importe la classe Outils
             Outils outils = new Outils();
@@ -181,7 +174,6 @@ namespace learnCSharp
             #endregion
 
             #region Episode 9
-            Title("Episode 9, L'heritage");
             //Voir classes : Animal.cs, Chien.cs, Chat.cs
             //Création d'une variable qui importe la classe Chien
             Chien chien = new Chien("Yuki");
@@ -202,31 +194,33 @@ namespace learnCSharp
             #endregion
 
             #region Episode 10
-            Title("Episode 10, La visibilité et la portée des variables");
             //Une variable dans une méthode ne peut pas être utilisée en dehors de la méthode
             #endregion
 
             #region Episode 11
-            Title("Episode 11, Les exceptions");
+            //Try sert à mettre un catch si il y a une erreur
             try
             {
                 Console.WriteLine("Entrez un nombre : ");
                 int readNumber = int.Parse(Console.ReadLine());
                 Console.WriteLine("100 / {0} = {1} ", readNumber, 100 / readNumber);
             }
+            //DivideByZeroException est une erreur quand on essaie de diviser par zéro
             catch(DivideByZeroException)
             {
                 Console.WriteLine("Divsion par zéro impossible");
             }
+            //FormatException est une erreur quand on se trompe de format comme par exemple mettre une string au lieu d'un entier
             catch(FormatException)
             {
                 Console.WriteLine("Veuillez entrer un entier");
             }
-
+            //OverflowException est quand on entre un nombre trop petit ou trop grand pourf un entier 
             catch (OverflowException)
             {
                 Console.WriteLine("Valeure trop grande ou trop petite");
             }
+            //Finally s'éxecute forcément même si il y a une erreure
             finally
             {
                 Console.WriteLine("Vous avez terminé l'épisode");
@@ -236,19 +230,24 @@ namespace learnCSharp
             #endregion
 
             #region Episode 12
-            Title("Episode 12, Conversion de type de données");
 
+            //int est un entier qui a une valeure maximale et qui peut aussi s'écrire Int32
             int a = 2147483647;
+            //long est un entier qui est plus grand et qui peut aussi s'écrire Int64
             long b = 93212312365453587;
+            //On peut converir un long en int mais pas l'inverse
             b =a;
 
-
+            //double est une variable à virgule qui peut aussi s'écrire float
             double c = 2.4;
             Console.WriteLine(c);
+            //On peut écrire c en le convertissant en entier ce qui va enlever la virgule et ce qu'il y a après
             Console.WriteLine((int)c);
 
+            //Ici on convertit une chaine qui contient en entier en entier
             int trenteDouze = Convert.ToInt32("3012");
 
+            //Ici la variable d'au dessus devient une chaine et il ya une condition qui dit que si cela réussi ça marque que ça a réussi sinon ça marque que ça a pas réussi
             if (int.TryParse("trente-douze", out trenteDouze))
             {
                 Console.WriteLine("Le nombre " + trenteDouze + "à été converti");
@@ -258,14 +257,6 @@ namespace learnCSharp
                 Console.WriteLine("Conversion impossible");
             }
             #endregion
-
-
-            //Methode Title () pour se reperer dans la console
-            void Title(string text)
-            {
-                Console.WriteLine("-----------------------------------" + text + "-----------------------------------");
-            
-            }
         }
     }
 }
